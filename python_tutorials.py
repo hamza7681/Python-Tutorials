@@ -38,15 +38,15 @@ for a, b in zip(l1, l2):
     print(a, b)
 
 # convert string to list
-# n = input('Enter the value: ')
-# print(n)
-# l = n.split()
-# print(l)
-# newList = []
-# for a in range(1, 4):
-#     n = input('Enter the value number'+str(a)+": ")
-#     newList.append(n)
-# print(newList)
+n = input('Enter the value: ')
+print(n)
+l = n.split()
+print(l)
+newList = []
+for a in range(1, 4):
+    n = input('Enter the value number'+str(a)+": ")
+    newList.append(n)
+print(newList)
 
 person = {
     "name": "Hamza Siddique",
